@@ -27,7 +27,7 @@ function getSeason(date) {
 			console.log('autumn')
 			return 'autumn';
 		}
-	} else return
+	} else return 'Unable to determine the time of year!';
 }
 
 getSeason(new Date(1456, 0, 2, 1, 50, 9, 238))
