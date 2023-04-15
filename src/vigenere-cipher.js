@@ -20,15 +20,20 @@ const { NotImplementedError } = require('../extensions/index.js');
  * 
  */
 class VigenereCipheringMachine {
+
   encrypt() {
-    throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
+				// if (this.message === undefined || this.key === undefined) throw new Error;
   }
   decrypt() {
-    throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
+		
+		// if (this.encryptedMessage === undefined || this.key === undefined) throw new Error;
   }
+
 }
+
+// const a = new VigenereCipheringMachine();
+// a.encrypt('AEIHQX SX DLLU!', 'alphonse');
+// a.decrypt();
 
 module.exports = {
   VigenereCipheringMachine
